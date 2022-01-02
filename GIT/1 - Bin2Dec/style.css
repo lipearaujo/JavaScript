@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1D2B64;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8CDDA, #1D2B64); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout{
+    width: 500px;
+    height: 250px;    
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    border: 1px solid #707070;
+}
+
+button{
+    width: 17%;
+    height: 40px;
+    background: #1fa2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #000;
+    font-size: 1.3rem;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0px #044e83;
+    cursor: pointer;
+}
+
+button:hover{
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}

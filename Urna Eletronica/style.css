@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303030;
+}
+
+.urna{
+    margin-top: 100px;
+    padding: 30px;
+    display: flex;
+    background-color: #dbd5c9;
+    border-radius: 10px;
+}
+
+.tela{
+    width: 450px;
+    height: 325px;
+    background: linear-gradient(to right, #E8E8E8, #C1C1C1);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(170, 169, 169);
+}
+
+.infos-candidato {
+    display: flex;
+    flex: 1;
+}
+
+.texto-candidato{
+    
+    flex: 1;
+}
+
+.voto-para{
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+.voto-cargo{
+    text-align: center;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.numero-cargo{
+    display: flex;
+    justify-content: center;
+}
+
+.numeros{
+    width: 30px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid #000;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+}
+
+.pisca{
+    animation-name: pisca;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+}
+
+.spans-texto-voto{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    margin-top: 5px;
+    line-height: 40px;
+    margin-left: 5px;
+}
+
+.foto{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.foto-candidato {
+    font-size: 14px;
+    text-align:center;
+    border: 1px solid #000; 
+    background-color: #fff;
+}
+
+.foto-candidato img {
+    width: 100%;
+}
+
+.foto-candidato.small {
+    width: 80%;
+    font-size: 12px;  
+}
+
+.infos-voto{
+    border-top: 2px solid #000;
+    font-weight: bold; 
+}
+
+.infos-voto p{
+    font-weight: normal;
+    padding-left: 23px;
+}
+
+.teclado{
+    margin-left: 30px;
+    background-color: #4a4242;
+    border: 1px solid rgb(170, 169, 169);
+}
+
+.teclado-linhas{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.botoes{
+    margin-top: 40px;   
+}
+
+.teclado-numeros{
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 8px;
+    background-color: rgb(29, 29, 29);
+    width: 45px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0px #000;
+}
+
+.btn-branco{
+    width: 60px;
+    height: 30px;
+    font-size: 12px;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 3px 3px 0px #ccc;
+}
+
+.btn-corrige{
+    width: 60px;
+    height: 30px;
+    font-size: 12px;
+    background-color: #c57854;
+    box-shadow: 3px 3px 0px #c96536;
+    color: #000;
+}
+
+.btn-confirma{
+    font-size: 13px;
+    width: 80px;
+    height: 45px;
+    background-color: #5bb579;
+    box-shadow: 3px 3px 0px #3d7a51;
+    color: #000;
+}
+
+.aviso-branco{
+    text-align: center;
+    margin: 43px 0;
+}
+
+.aviso-nulo{
+    text-align: center;
+    margin: 25px 0;
+}
+
+.aviso-fim {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.aviso-fim p{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+@keyframes pisca{
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}

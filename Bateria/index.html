@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Bateria</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="center">
+            <h1>Bateria</h1>
+        </div>
+    </header>
+
+    <div class="center">
+        <div class="letras">
+            <div data-key="keyq" class="letra">Q</div>
+            <div data-key="keyw" class="letra">W</div>
+            <div data-key="keye" class="letra">E</div>
+            <div data-key="keya" class="letra">A</div>
+            <div data-key="keys" class="letra">S</div>
+            <div data-key="keyd" class="letra">D</div>
+            <div data-key="keyz" class="letra">Z</div>
+            <div data-key="keyx" class="letra">X</div>
+            <div data-key="keyc" class="letra">C</div>
+        </div>
+
+
+        <div class="inputs">
+            <input id="campoComposicao" type="text" placeholder="Faça uma composição...">
+            <button onclick="tocar()">Tocar</button>
+        </div>
+    </div>
+
+    <audio id="s_keya" src="sounds/keya.wav"></audio>
+    <audio id="s_keyc" src="sounds/keyc.wav"></audio>
+    <audio id="s_keyd" src="sounds/keyd.wav"></audio>
+    <audio id="s_keye" src="sounds/keye.wav"></audio>
+    <audio id="s_keyq" src="sounds/keyq.wav"></audio>
+    <audio id="s_keys" src="sounds/keys.wav"></audio>
+    <audio id="s_keyw" src="sounds/keyw.wav"></audio>
+    <audio id="s_keyx" src="sounds/keyx.wav"></audio>
+    <audio id="s_keyz" src="sounds/keyz.wav"></audio>
+
+    <footer>Criado por Filipe Araujo</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

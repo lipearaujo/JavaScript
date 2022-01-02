@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5653d7f13d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>SlideShow</title>
+</head>
+
+<body>
+    <header>
+        <h1>SlideShow</h1>
+    </header>
+
+    <div class="botao">
+        <div onclick="prev()" class="botao-prev"><i class="fas fa-angle-left"></i></div>
+        <div onclick="next()" class="botao-next"><i class="fas fa-angle-right"></i></div>
+    </div>
+
+    <div class="box">
+        <div class="box-img"  >
+            <div class="box-item" style="background-image: url('images/maia1.PNG');"></div>
+            <div class="box-item" style="background-image: url('images/maia2.PNG');"></div>
+            <div class="box-item" style="background-image: url('images/maia3.PNG');"></div>
+        </div>
+    </div>
+
+    <div class="marcacao-img">
+        <div class="marcacao-circulo"></div>
+        <div class="marcacao-circulo"></div>
+        <div class="marcacao-circulo"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Countdown Timer</title>
+</head>
+<body>
+    <h1>Countdown Timer</h1>
+
+    <div class="boxInputs">
+        <div class="input">
+            <input type="text" id="eventName" name="eventName" placeholder="Event name..." required>
+            <input type="date" id="inputDate" required>
+            <!--<input type="time" id="inputTime"  pattern="[0-9]{2}:[0-9]{2}">-->
+            <button onclick="submit()">Start</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="events">
+            <div class="eventInfos">
+                <div class="eventSingle">
+                    <strong><p id="name">Event Name:  </p></strong>
+                    <strong><p id="eventDate">Date:  </p></strong>
+                    <!--<strong><p id="eventTime">Time:  </p></strong>-->
+                </div>    
+            </div>
+
+            <div class="countdownTimer">
+                <div class="timeSingle">
+                    <span id="days">--</span>
+                    <p>DAYS</p>
+                </div>
+    
+                <div class="timeSingle">
+                    <span id="hours">--</span>
+                    <p>HOURS</p>
+                </div>
+    
+                <div class="timeSingle">
+                    <span id="minutes">--</span>
+                    <p>MINUTES</p>
+                </div>
+    
+                <div class="timeSingle">
+                    <span id="seconds">--</span>
+                    <p>SECONDS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: #ccc;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.box-img{
+    height: 500px;
+    transition: all ease 0.3s;
+    display: flex;
+}
+
+.box-item{
+    width: 100%;
+    height: inherit;
+}
+
+.box-item img{
+    width: 100%;
+    height: inherit;
+}
+
+.botao{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.botao-prev{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-prev i{
+    font-size: 20px;
+    color: #fff;
+}
+
+.botao-next{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-next i{
+    font-size: 20px;
+    color: #fff;
+}
+
+.marcacao-img{
+    display: flex;
+    justify-content: center;
+}
+
+.marcacao-circulo{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(163, 162, 162);
+    margin: 0 10px;
+}
+

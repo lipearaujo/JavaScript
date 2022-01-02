@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="tela">
+            <!--<input type="text" id="input-tela">-->
+        </div>
+
+        <div class="teclado">
+           <div class="teclado-linhas line-one">
+               <div class="ac" onclick="clean()">AC</div>
+               <div class="teclado-botoes operation" onclick="button('/')">/</div>
+           </div> 
+
+            <div class="teclado-linhas">
+                <div class="teclado-botoes" onclick="button('7')">7</div>
+                <div class="teclado-botoes" onclick="button('8')">8</div>
+                <div class="teclado-botoes" onclick="button('9')">9</div>
+                <div class="teclado-botoes operation" onclick="button('x')">X</div>
+            </div> 
+
+            <div class="teclado-linhas">
+                <div class="teclado-botoes" onclick="button('4')">4</div>
+                <div class="teclado-botoes" onclick="button('5')">5</div>
+                <div class="teclado-botoes" onclick="button('6')">6</div>
+                <div class="teclado-botoes operation" onclick="button('-')">-</div>
+            </div> 
+
+            <div class="teclado-linhas">
+                <div class="teclado-botoes" onclick="button('1')">1</div>
+                <div class="teclado-botoes" onclick="button('2')">2</div>
+                <div class="teclado-botoes" onclick="button('3')">3</div>
+                <div class="teclado-botoes operation" onclick="button('+')">+</div>
+            </div> 
+
+            <div class="teclado-linhas last-line">
+                <div class="teclado-botoes zero" onclick="button('0')">0</div>
+                <div class="teclado-botoes" onclick="button('.')">.</div>
+                <div class="teclado-botoes operation" onclick="button('=')">=</div>                                                                                                                                                                                                                                                                                                                                                             
+            </div> 
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

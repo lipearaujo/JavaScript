@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Pushster&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background: #4DA0B0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #D39D38, #4DA0B0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #D39D38, #4DA0B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    padding: 50px;
+}
+
+textarea {
+    resize: none;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-shadow: 3px 3px 3px #000;
+    padding: 10px;
+    font-size: 16px;
+}

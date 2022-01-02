@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Border Radius Preview</title>
+</head>
+<body>
+    <div class="layout">
+        <div class="box"></div>
+
+        <input id="top-left" onchange="refresh()" type="number">
+        <input id="top-right" onchange="refresh()" type="number">
+        <input id="bottom-left" onchange="refresh()" type="number">
+        <input id="bottom-right" onchange="refresh()" type="number">
+
+    </div>
+
+    <div class="infos">
+        <input id="input-infos" type="text">
+        <button onclick="copy()">copy</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.layout{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.box{
+    width: 480px;
+    height: 480px;
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+input{
+    width: 80px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #000;
+    padding-left: 10px;
+    background-color: #0007;
+    color: white;
+}
+
+#top-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#top-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#bottom-left{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#bottom-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.infos{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#input-infos{
+    width: 70%;
+    height: 40px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+button{
+    width: 25%;
+    height: 40px;
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0px #3c165e;
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+

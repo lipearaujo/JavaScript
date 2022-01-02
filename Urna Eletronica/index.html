@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Urna Eletrônica</title>
+</head>
+<body>
+    <div class="urna">
+        <div class="tela">
+            <div class="infos-candidato">
+                <div class="texto-candidato">
+                    <div class="voto-para">
+                        <span>Seu voto para</span>
+                    </div>
+
+                    <div class="voto-cargo">
+                        <span>Prefeito</span>
+                    </div>
+
+                    <div class="numero-cargo">
+                        <div class="numeros pisca"></div>
+                        <div class="numeros"></div>
+                    </div>
+
+                    <div class="texto-voto">
+                        <div class="spans-texto-voto">
+                            <span class="nome">Nome:</span>
+                            <span class="partido">Partido:</span>
+                            <span class="vice">Vice-Prefeito:</span>
+                        </div>
+                        <div class="aviso-branco pisca">
+                            <h1>VOTO EM BRANCO</h1>
+                        </div>
+                        <div class="aviso-nulo pisca">
+                            <h1>VOTO NULO</h1>
+                        </div>
+                    </div>
+                </div><!--TEXTO-CANDIDATO-->
+
+                <div class="foto">
+                    <div class="foto-candidato">
+                        <img src="prefeito.PNG" alt="">
+                        <p style="font-weight: bold;">Prefeito</p>
+                    </div>
+                    <div class="foto-candidato small">
+                        <img src="vice.PNG" alt="">
+                        <p>Vice-Prefeito</p>
+                    </div>
+                </div><!--FOTO-CANDIDATO-->
+            </div><!--INFOS-CANDIDATO-->
+
+            <div class="infos-voto">
+                <span>Aperte a tecla:</span>
+                <p>CONFIRMA para CONFIRMAR este voto</p>
+                <p>CORRIGE para REINICIAR este voto</p>
+            </div><!--INFOS-VOTO-->
+        </div><!--TELA-->
+
+        <div class="teclado">
+            <div class="teclado-linhas botoes">
+                <div class="teclado-numeros" onclick="btnNumbers('1')">1</div>
+                <div class="teclado-numeros" onclick="btnNumbers('2')">2</div>
+                <div class="teclado-numeros" onclick="btnNumbers('3')">3</div>
+            </div><!--TECLADO-LINHAS-->
+
+            <div class="teclado-linhas">
+                <div class="teclado-numeros" onclick="btnNumbers('4')">4</div>
+                <div class="teclado-numeros" onclick="btnNumbers('5')">5</div>
+                <div class="teclado-numeros" onclick="btnNumbers('6')">6</div>
+            </div><!--TECLADO-LINHAS-->
+
+            <div class="teclado-linhas">
+                <div class="teclado-numeros" onclick="btnNumbers('7')">7</div>
+                <div class="teclado-numeros" onclick="btnNumbers('8')">8</div>
+                <div class="teclado-numeros" onclick="btnNumbers('9')">9</div>
+            </div><!--TECLADO-LINHAS-->
+
+            <div class="teclado-linhas">
+                <div class="teclado-numeros" onclick="btnNumbers('0')">0</div>
+            </div><!--TECLADO-LINHAS-->
+
+            <div class="teclado-linhas">
+                <div class="teclado-numeros btn-branco" onclick="btnBranco()">BRANCO</div>
+                <div class="teclado-numeros btn-corrige" onclick="btnCorrige()">CORRIGE</div>
+                <div class="teclado-numeros btn-confirma" onclick="btnConfirma()">CONFIRMA</div>
+            </div><!--TECLADO-LINHAS-->
+        </div><!--TECLADO-->
+    </div><!--URNA-->
+
+    <script src="etapas.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    background: #73C8A9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #373B44, #73C8A9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3rem;
+}
+
+.boxInputs {
+    margin-top: 40px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 900px;
+    margin: 50px auto;
+    background-color: rgb(224, 222, 222);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #000;
+    
+}
+
+input{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    font-size: 1.4rem;
+    box-shadow: 3px 3px 3px #000;
+    border-radius: 5px;
+}
+
+button {
+    width: 180px;
+    height: 50px;
+    margin-left: 40px;
+    border: 0;
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    font-size: 1.2rem;
+    box-shadow: 3px 3px 3px #000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.events{
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.eventInfos{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.eventSingle {
+    padding-top: 10px;
+}
+
+.eventSingle p{
+    padding-top: 10px;
+}
+
+.countdownTimer {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 60px;
+}
+
+.timeSingle {
+    margin: 20px;
+    text-align: center;
+}
+
+.timeSingle span{
+    font-size: 3rem;
+}
+
+.timeSingle p{
+    border-top: 1px solid #000;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+

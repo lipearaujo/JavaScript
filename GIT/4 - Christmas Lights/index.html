@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Christmas Lights</title>
+</head>
+<body>
+    <h1>Christmas Lights</h1>
+    <div class="container">
+        <div class="ball red"></div>
+        <div class="ball green"></div>
+        <div class="ball blue"></div>
+        <div class="ball yellow"></div>
+        <div class="ball red"></div>
+        <div class="ball green"></div>
+        <div class="ball blue"></div>
+        <div class="ball yellow"></div>
+    </div>
+
+    <div class="controls">
+        <div class="on-off">
+            <button onclick="on()">On</button>
+            <button onclick="off()">Off</button>
+        </div>
+
+        <div class="speed">
+            <span>Speed: </span>
+            <input type="number" id='number' min="1" max="5" placeholder="From 1 untill 5">
+            <button onclick="run()">RUN</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

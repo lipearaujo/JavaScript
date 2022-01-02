@@ -1,0 +1,107 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    overflow: hidden;
+}
+
+html,body{
+    height: 100%;
+    background-color: #333;
+}
+
+header{
+    text-align: center;
+    height: 100px;
+    background-color: aquamarine;
+    background-color: #000;
+}
+
+header h1{
+    color: #fff;
+    padding-top: 25px;
+    letter-spacing: 25px;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #ccc;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.box-img{
+    height: 500px;
+    transition: all ease 0.3s;
+    display: flex;
+}
+
+.box-item{
+    width: 100%;
+    height: inherit;
+    background-size: cover;
+    background-position: center;
+}
+
+.botao{
+    width: 700px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 300px;
+}
+
+.botao-prev{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.botao-prev i{
+    font-size: 20px;
+    position: relative;
+    top: 15%;
+    left: 25%;
+    color: #fff;
+    
+}
+
+.botao-next{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.botao-next i{
+    font-size: 20px;
+    position: relative;
+    top: 15%;
+    left: 35%;
+    color: #fff;
+}
+
+.marcacao-img{
+    display: flex;
+    justify-content: center;
+}
+
+.marcacao-circulo{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(163, 162, 162);
+    margin: 0 10px;
+}
+
+.selected{
+    background-color: #000;
+}
