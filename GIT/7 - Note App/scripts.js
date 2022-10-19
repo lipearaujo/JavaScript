@@ -1,6 +1,5 @@
 let divNotes = document.querySelector('.notes');
 let divNotepadSingle = document.querySelector('.notepad-single');
-let myStorage = localStorage;
 
 
 function add(){
